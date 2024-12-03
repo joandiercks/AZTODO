@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Arizona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: url('https://example.com/arizona-banner.jpg') no-repeat center center / cover;
+            height: 300px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 8px #000;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+        }
+        .card {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px;
+        }
+        .card p {
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Arizona</h1>
+    </header>
+    <nav>
+        <a href="#hiking">Hiking</a>
+        <a href="#sightseeing">Sightseeing</a>
+        <a href="#culture">Culture</a>
+        <a href="#dining">Dining</a>
+    </nav>
+    <main>
+        <section id="hiking" class="section">
+            <h2>Hiking Adventures</h2>
+            <div class="card">
+                <img src="https://example.com/grand-canyon.jpg" alt="Grand Canyon">
+                <h3>Grand Canyon</h3>
+                <p>Experience the breathtaking views and trails of the Grand Canyon.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/sedona.jpg" alt="Sedona">
+                <h3>Sedona</h3>
+                <p>Explore the red rock formations and scenic hikes in Sedona.</p>
+            </div>
+        </section>
+        <section id="sightseeing" class="section">
+            <h2>Sightseeing</h2>
+            <div class="card">
+                <img src="https://example.com/antelope-canyon.jpg" alt="Antelope Canyon">
+                <h3>Antelope Canyon</h3>
+                <p>Discover the stunning slot canyons with their vibrant sandstone waves.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/hoover-dam.jpg" alt="Hoover Dam">
+                <h3>Hoover Dam</h3>
+                <p>A marvel of engineering, connecting Arizona with Nevada.</p>
+            </div>
+        </section>
+        <section id="culture" class="section">
+            <h2>Cultural Experiences</h2>
+            <div class="card">
+                <img src="https://example.com/navajo.jpg" alt="Navajo Nation">
+                <h3>Navajo Nation</h3>
+                <p>Learn about Native American history and traditions.</p>
+            </div>
+        </section>
+        <section id="dining" class="section">
+            <h2>Local Dining</h2>
+            <div class="card">
+                <img src="https://example.com/taco.jpg" alt="Southwestern Cuisine">
+                <h3>Southwestern Cuisine</h3>
+                <p>Enjoy delicious southwestern flavors, from tacos to enchiladas.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Explore Arizona. All rights reserved.</p>
+    </footer>
+</body>
+</html>
